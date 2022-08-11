@@ -1,0 +1,80 @@
+
+body{
+    box-sizing: border-box;
+    margin:0px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(./images/pexels-kien-virak-5213752.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.portfolio-body{
+    background-image: linear-gradient(to bottom right, #5c2018, #4285f4);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10rem 0;
+}
+
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+padding:4%;
+opacity: 50%;
+}
+.menu-icon{
+padding:7%;
+}
+
+.about{
+    width:100%;
+    padding:4%;
+    padding-top:0px;
+}
+
+.works{
+    padding: 4%;
+    padding-top: 0%;
+    width:100%;
+}
+
+.contact{
+    background-color: orange;
+    width:100%;
+    height:300px;
+}
+.def{
+    font-size: 1.5rem;
+}
+.highlight{
+    font-size: 3rem;
+}
+.skills {
+    float: left;
+    padding: 2%;
+  }
+  
+  .skills:hover {
+    border: 1px solid white;
+  }
+  
+  .skills img {
+    width: 100%;
+    height: 300px;
+    background-color: bisque;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .profile{
+    padding:4%;
+  }
